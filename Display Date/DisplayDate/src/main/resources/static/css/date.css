@@ -1,0 +1,10 @@
+.container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+h1{
+	color: dodgerblue;
+	line-height: 50vh;
+}
