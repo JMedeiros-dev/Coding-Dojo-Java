@@ -75,13 +75,11 @@ public class User {
 }
 
 
-
-
 public void setFirstName(String firstName) {
 	this.firstName = firstName;
 }
 
-
+	
 public String getLastName() {
 	return lastName;
 }
@@ -104,20 +102,14 @@ public void setLocation(String location) {
 }
 
 
-
-
 public String getState() {
 	return state;
 }
 
 
-
-
 public void setState(String state) {
 	this.state = state;
 }
-
-
 
 
 public Long getId() {
@@ -173,13 +165,9 @@ public List<Event> getEvents() {
 }
 
 
-
-
 public void setEvents(List<Event> events) {
 	this.events = events;
 }
-
-
 
 
 @PrePersist
@@ -192,13 +180,9 @@ public void setEvents(List<Event> events) {
  }
 
 
-
-
 public List<Event> getEventsAttending() {
 	return eventsAttending;
 }
-
-
 
 
 public void setEventsAttending(List<Event> eventsAttending) {
