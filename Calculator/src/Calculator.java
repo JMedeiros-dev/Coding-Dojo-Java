@@ -5,11 +5,9 @@
 	private double operandTwo;
 	private double result;
 	
-	
 	public Calculator() {
 		
 	}
-	
 		
 	public void performOperation() {
 		if(this.getOperation() == "+") {
