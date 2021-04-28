@@ -71,7 +71,6 @@ public class BankAccount {
 		return this.getCheckingBalance() + this.getSavingsBalance();
 	}
 	
-	
 	public String getAccountNumber() {
 		return accountNumber;
 	}
